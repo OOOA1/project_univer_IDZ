@@ -1,0 +1,272 @@
+@media(max-width: 1024px) {
+    .container {
+        min-width: 1024px;
+    }
+
+    /* body,html {
+        min-width: 1024px;
+    } */
+
+    .logo__img {
+        width: 50%;
+    }
+
+    .nav__list {
+        justify-content: normal;
+    }
+
+    .nav__item {
+        margin-right: 54px;
+    }
+
+    .blue__line {
+        margin: auto;
+    }
+
+    .sup__btn {
+        padding: 10px 20px;
+    }
+
+    .info__title {
+        font-size: 42px;
+    }
+
+    .info__title span {
+        font-size: 42px;
+    }
+
+    .info__text {
+        /* font-size: 42px; */
+        width: 70%;
+    }
+
+    .info__women {
+        width: 120%;
+
+        top: -49px;
+        left: -141px;
+    }
+
+    .info__bg {
+        width: 80%;
+    }
+
+    .info__speed {
+        top: 289px;
+        left: 291px;
+    }
+
+    .info__diagrama {
+        top: -53px;
+        left: 288px;
+    }
+
+    .sebtext__men {
+        font-size: 18px;
+        width: 70%;
+    }
+
+    .men__img {
+        position: absolute;
+        left: -528px;
+        top: -241px;
+    }
+
+    .men1 {
+        top: 42px;
+        left: -521px;
+    }
+
+    .men2 {
+        top: 89px;
+        left: -250px;
+    }
+
+    .men3 {
+        top: -203px;
+        left: -515px;
+    }
+
+    .men4 {
+        top: -228px;
+        left: -235px;
+    }
+
+    .women1 {
+        top: -52px;
+        left: -180px;
+    }    
+
+    .card__title {
+        font-size: 18px;
+    }
+
+    .card__text {
+        font-size: 14px;
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .service__card__block {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 550px;
+
+        align-items: center;
+    }
+
+    .service__card {
+        width: 30%;
+        margin-right: 0px;
+    }
+
+    .function__block__wrapper {
+        align-items: center;
+    }
+
+    .function__block {
+        margin-right: 0;
+        width: 90%;
+    }
+
+    .function__text {
+        width: 80%;
+        margin: auto;
+    }
+
+    .function__subtext {
+        font-size: 14px;
+    }
+
+    .logoipsum__text {
+        font-size: 24px;
+    }
+
+    .tried {
+        margin-top: 0;
+    }
+
+    .tried__title {
+        font-size: 24px;
+    }
+
+    .footer__block {
+        margin-right: 5px;
+    }
+
+    .footer__line {
+        width: 100%;
+    }
+
+    .footer__undertext {
+        text-align: center;
+    }
+
+    .footer__soclink___wrapper svg {
+        margin-right: 20px;
+    }
+
+    .footer__nav__wrapper {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer__block {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .nav__list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .nav__link {
+        font-size: 20px;
+    }
+
+    .sup__btn {
+        display: none;
+    }
+
+    .info__text__block {
+        width: 80%;
+    }
+
+    .info__title {
+        font-size: 52px;
+    }
+
+    .info__title span {
+        font-size: 52px;
+    }
+
+    .info__text {
+        font-size: 20px;
+    }
+
+    .info__img__block {
+        display: none;
+    }
+
+    .info__text__block {
+        text-align: center;
+        margin: auto;
+    }
+
+    .info__text {
+        margin: auto;
+    }
+
+    .service__wrapper {
+        margin-top: 100px;
+    }
+
+    .card__title {
+        font-size: 20px;
+    }
+
+    .card__text {
+        font-size: 16px;
+    }
+
+    .men__wrapper {
+        margin-top: 100px;
+    }
+
+    .men__text__block {
+        margin: auto;
+        text-align: center;
+    }
+
+    .men__text {
+        margin: auto;
+    }
+
+    .sebtext__men {
+        margin: auto;
+        font-size: 20px;
+    }
+
+    .men__img__block {
+        display: none;
+    }
+
+    .function__text {
+        font-size: 20px;
+    }
+
+    .function__subtitle {
+        font-size: 24px;
+    }
+
+    .function__subtext {
+        font-size: 20px;
+    }
+}
