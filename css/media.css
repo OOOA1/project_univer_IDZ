@@ -61,6 +61,12 @@
     }
 }
 
+@media(max-width: 1100px) {
+    .function__block {
+        margin-right: 0;
+    }
+}
+
 @media(max-width: 900px) {
     .men__text__block {
         margin-right: 20.43vw;
@@ -73,6 +79,10 @@
     }
 
     .service__text {
+        font-size: 1.95vw;
+    }
+
+    .function__text {
         font-size: 1.95vw;
     }
 
@@ -136,17 +146,22 @@
         font-size: 2.45vw;
     }
 
+    .logoipsum__text {
+        font-size: 2.45vw;
+    }
+
     .video__title {
         font-size: 4.64vw;
+        padding-top: 15.43vw;
     }
 
     .video__text {
         font-size: 3vw;
     }
 
-    .video__title {
-        padding-top: 15.43vw;
-    }
+    .function__title {
+        font-size: 4.64vw;
+    }    
 }
 
 @media(max-width: 600px) {
@@ -166,6 +181,10 @@
         font-size: 2.45vw;
     }
 
+    .function__text {
+        font-size: 2.45vw;
+    }
+
     .info__btn {
         font-size: 2.91vw;
         padding: 1.36vw 3.18vw;
@@ -174,6 +193,10 @@
     }
 
     .card__title {
+        font-size: 2.91vw;
+    }
+
+    .function__subtitle {
         font-size: 2.91vw;
     }
 
@@ -187,6 +210,10 @@
 
     .video__title {
         padding-top: 21.43vw;
+    }
+
+    .function__title {
+        font-size: 2.91vw;
     }
 }
 
@@ -204,6 +231,10 @@
         font-size: 2.45vw;
     }
 
+    .function__subtext {
+        font-size: 2.45vw;
+    }
+
     .men__button {
         font-size: 2.45vw;
         padding: 2.36vw 3.73vw;
@@ -215,6 +246,10 @@
 
     .video__title {
         padding-top: 29.43vw;
+    }
+
+    .function__block {
+        height: 200px;
     }
 }
 
@@ -233,6 +268,10 @@
     }
 
     .service__text {
+        font-size: 3.45vw;
+    }
+
+    .function__text {
         font-size: 3.45vw;
     }
 
@@ -262,6 +301,10 @@
         font-size: 3.45vw;
     }
 
+    .logoipsum__text {
+        font-size: 3.45vw;
+    } 
+
     .sebtext__men {
         font-size: 3.45vw;
     }
@@ -277,5 +320,44 @@
 
     .video__title {
         padding-top: 56.43vw;
+    }
+
+    .function__title {
+        font-size: 5.45vw;
+    }
+
+    .function__text {
+        font-size: 3.45vw;
+    }
+
+    .function__block {
+        height: 120px;
+    }
+
+    .blue__line {
+        height: 1px;
+    }
+
+    .author__name {
+        font-size: 3.91vw;
+    }
+
+    .author__subtitle {
+        font-size: 2.09vw;
+    }
+
+    .logoipsum__img {
+        width: 35px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 200px) {
+    .logoipsum__wrapper svg {
+        display: none;
+    }
+
+    .logoipsum__text {
+        padding-top: 50px;
     }
 }
