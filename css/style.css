@@ -113,7 +113,7 @@ button {
 
 .sup__btn {
     margin-top: -15px;
-    padding: 15px 30px;
+    padding: 1.36vw 2.73vw;
     white-space: nowrap; /* запрет переноса слов */
 
     background-color: #35AFBF;
@@ -208,7 +208,7 @@ button {
     left: 463px;
 }
 
-.info__btn {
+.info__btn,.tried__btn {
     margin-top: 30px;
 
     padding: 1.36vw 3.18vw;
@@ -222,6 +222,10 @@ button {
 }
 
 .info__btn:hover {
+    background-color: #27808b;
+}
+
+.tried__btn:hover {
     background-color: #27808b;
 }
 
@@ -514,7 +518,7 @@ button {
 /* logoipsum start */
 
 .logoipsum {
-    margin-top: 120px;
+    margin-top: 10.91vw;
     background-color: #E3F9FC;
 }
 
@@ -571,20 +575,20 @@ button {
 /* tried start */
 
 .tried {
-    margin-top: 120px;
+    margin-top: 10.91vw;
     text-align: center;
 }
 
 .tried__title {
     color: #252626;
 
-    font-size: 38px;
+    font-size: 3.45vw;
     font-weight: 700;
     line-height: 135%;
 }
 
 .tried__btn {
-    margin: 35px 0 120px;
+    margin: 3.18vw 0 10.91vw;
 }
 
 .tried__btn:hover {
@@ -602,11 +606,12 @@ button {
 .footer__block__wrapper {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .footer__block {
-    padding: 80px 0 50px;
-    margin-right: 85px;
+    padding: 7.27vw 0 4.55vw;
+    margin-right: 7.73vw;
 }
 
 .footer__block:last-child {
@@ -615,7 +620,7 @@ button {
 
 .footer__title {
     color: #FFF;
-    font-size: 21px;
+    font-size: 1.91vw;
     font-weight: 600;
     line-height: 150%;
 }
@@ -623,16 +628,16 @@ button {
 .footer__price__wrapper {
     color: #FFF;
     display: flex;
-    margin: 15px 0;
+    margin: 1.36vw 0;
 }
 
 .footer__price {
-    font-size: 38px;
+    font-size: 3.45vw;
     font-weight: 400;
 }
 
 .per__month {
-    font-size: 16px;
+    font-size: 1.45vw;
     font-weight: 400;
     line-height: 160%;
     padding-top: 15px;
@@ -640,23 +645,23 @@ button {
 
 .footer__text {
     color: #FFF;
-    font-size: 16px;
+    font-size: 1.45vw;
     font-weight: 400;
     line-height: 160%;
     opacity: 0.7;
 
-    margin-bottom: 15px;
+    margin-bottom: 1.36vw;
 }
 
 .footer__btn {
     color: #FFF;
-    font-size: 16px;
+    font-size: 1.45vw;
     font-weight: 500;
 
-    padding: 15px 30px;
-    margin-top: 5px;
+    padding: 1.36vw 2.73vw;
+    margin-top: 0.45vw;
 
-    border-radius: 12px;
+    border-radius: 1.09vw;
     border: 2px solid rgba(255, 255, 255, 0.30);
 }
 
@@ -665,20 +670,16 @@ button {
 }
 
 .footer__line {
-    width: 1200px;
+    width: 90vw;
     height: 1px;
     background-color: #4B4B4B;
     margin-bottom: 40px;
 }
 
-.footer__list {
-    list-style-type: none;
-}
-
 .footer__link {
     text-decoration: none;
     color: #FFF;
-    font-size: 16px;
+    font-size: 1.45vw;
     font-weight: 400;
     line-height: 160%;
 }
@@ -692,10 +693,13 @@ button {
 
 .footer__nav__list {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .footer__list {
-    margin-right: 35px;
+    margin-right: 3.18vw;
+    list-style-type: none;
+
 }
 
 .footer__list:last-child {
@@ -703,7 +707,7 @@ button {
 }
 
 .footer__soclink___wrapper svg {
-    margin-right: 40px;
+    margin-right: 3.64vw;
 }
 
 .footer__soclink___wrapper svg:last-child {
@@ -711,10 +715,10 @@ button {
 }
 
 .footer__undertext {
-    padding-bottom: 40px;
+    padding-bottom: 3.64vw;
 
     color: #FFF;
-    font-size: 12px;
+    font-size: 1.09vw;
     font-weight: 400;
     line-height: 160%;
 
