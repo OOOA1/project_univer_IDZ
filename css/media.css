@@ -61,6 +61,12 @@
     }
 }
 
+@media(max-width: 900px) {
+    .men__text__block {
+        margin-right: 20.43vw;
+    }
+}
+
 @media(max-width: 835px) {
     .info__text {
         font-size: 1.95vw;
@@ -78,6 +84,10 @@
 
     .service__card {
         margin-right: 0;
+    }
+
+    .subtext__men {
+        font-size: 1.95vw;
     }
 }
 
@@ -100,6 +110,22 @@
 
     .service__card__block {
         margin-left: 22.73vw;
+    }
+
+    .men__img__block {
+        display: none;
+    }
+
+    .men__text__block {
+        margin-right: 0;
+    }
+
+    .men__title {
+        font-size: 4.64vw;
+    }
+
+    .men__text {
+        font-size: 2.45vw;
     }
 }
 
@@ -133,6 +159,10 @@
 
     .service__card__block {
         margin-left: 15.73vw;
+    }
+
+    .subtext__men {
+        font-size: 2.45vw;
     }
 }
 
@@ -185,5 +215,17 @@
 
     .service__title {
         font-size: 5.45vw;
+    }
+
+    .men__title {
+        font-size: 5.45vw;
+    }
+
+    .men__text {
+        font-size: 3.45vw;
+    }
+
+    .subtext__men {
+        font-size: 3.45vw;
     }
 }
