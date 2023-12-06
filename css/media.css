@@ -89,6 +89,10 @@
     .subtext__men {
         font-size: 1.95vw;
     }
+
+    .video__text {
+        font-size: 2vw;
+    }
 }
 
 @media(max-width: 825px) {
@@ -116,6 +120,10 @@
         display: none;
     }
 
+    .men__line {
+        display: none;
+    }
+
     .men__text__block {
         margin-right: 0;
     }
@@ -126,6 +134,18 @@
 
     .men__text {
         font-size: 2.45vw;
+    }
+
+    .video__title {
+        font-size: 4.64vw;
+    }
+
+    .video__text {
+        font-size: 3vw;
+    }
+
+    .video__title {
+        padding-top: 15.43vw;
     }
 }
 
@@ -164,6 +184,10 @@
     .subtext__men {
         font-size: 2.45vw;
     }
+
+    .video__title {
+        padding-top: 21.43vw;
+    }
 }
 
 @media(max-width: 500px) {
@@ -178,6 +202,19 @@
 
     .card__text {
         font-size: 2.45vw;
+    }
+
+    .men__button {
+        font-size: 2.45vw;
+        padding: 2.36vw 3.73vw;
+    }
+
+    .video__text {
+        font-size: 2vw;
+    }
+
+    .video__title {
+        padding-top: 29.43vw;
     }
 }
 
@@ -225,7 +262,20 @@
         font-size: 3.45vw;
     }
 
-    .subtext__men {
+    .sebtext__men {
         font-size: 3.45vw;
+    }
+
+    .men__button {
+        font-size: 3.45vw;
+        padding: 3.36vw 4.73vw;
+    }
+
+    .video__title {
+        font-size: 5.45vw;
+    }
+
+    .video__title {
+        padding-top: 56.43vw;
     }
 }

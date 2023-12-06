@@ -306,7 +306,7 @@ button {
 }
 
 .men__text__block {
-    margin-right: 32.43vw;
+    margin-right: 20.43vw;
 }
 
 .men__title {
@@ -331,22 +331,22 @@ button {
 }
 
 .men__line {
-    width: 61px;
-    height: 1px;
+    width: 5.55vw;
+    height: 0.09vw;
 
     background-color: #707273;
-    margin-left: 4px;
-    margin-top: 12px;
+    margin-left: 0.36vw;
+    margin-top: 1.09vw;
 }
 
 .men__button {
     color: #35AFBF;
-    font-size: 16px;
+    font-size: 1.45vw;
     font-weight: 500;
     line-height: 120%;
 
-    padding: 15px 30px;
-    margin-top: 35px;
+    padding: 1.36vw 2.73vw;
+    margin-top: 3.18vw;
 
     border-radius: 6px;
     border: 1px solid rgb(60, 204, 223);
@@ -405,7 +405,7 @@ button {
     background-size: cover;
     height: 501px;
 
-    margin-bottom: 120px;
+    margin-bottom: 10.91vw;
 }
 
 .opacity {
@@ -419,13 +419,13 @@ button {
 }
 
 .video__title {
-    padding-top: 125px;
+    padding-top: 13.43vw;
     color: #FFF;
-    font-size: 38px;
+    font-size: 3.45vw;
     font-weight: 700;
     line-height: 120%;
 
-    margin-bottom: 20px;
+    margin-bottom: 1.82vw;
 }
 
 .video__text {
@@ -434,11 +434,13 @@ button {
     line-height: 160%;
     width: 68%;
     margin: auto;
+    font-size: 1.85vw;
 }
 
 .video__wrapper svg {
-    margin-top: 35px;
+    margin-top: 3.18vw;
 }
+
 
 /* video end */
 
