@@ -170,8 +170,6 @@ button {
 
 .info__women {
     position: absolute;
-    /* top: -128px;
-    left: -231px; */
     top: 2.730000000000004vw;
     left: -12vw;
     width: 170%;
@@ -239,12 +237,6 @@ button {
     text-align: center;
 }
 
-.service__title {
-    /* color: #252626;
-    font-size: 4.64vw;
-    font-weight: 700; */
-}
-
 .service__text {
     color: #707273;
     font-size: 1.45vw;
@@ -260,7 +252,6 @@ button {
 
 .service__card {
     width: 350px;
-    /* height: 262px; */
     margin-right: 4.55vw;
 }
 
@@ -480,7 +471,6 @@ button {
 }
 
 .function__block {
-    /* width: 19.9vw; */
     width: 25%;
     margin-top: 4.55vw;
     margin-right: 6.36vw;
