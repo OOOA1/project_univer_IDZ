@@ -45,15 +45,17 @@ button {
 }
 
 .container {
-    max-width: 1110px;
+    /* max-width: 1110px; */
     width: 100%;
     margin: auto;
+
+    padding: 0 7px 0 7px;
 }
 
 /* Header start */
 
 .header__wrapper {
-    margin-top: 50px;
+    margin-top: 4.55vw;
 }
 
 .nav__list {
@@ -77,7 +79,7 @@ button {
 .nav__link {
     text-decoration: none;
     color: #969999;
-    font-size: 16px;
+    font-size: 1.45vw;
     font-weight: 400;
     line-height: 160%; 
 
@@ -85,11 +87,10 @@ button {
 }
 
 .active {
-    padding-bottom: 10px;
+    padding-bottom: 0.91vw;
     border-bottom: #35AFBF 2px solid;
 
     color: #35AFBF;
-    font-size: 16px;
     font-weight: 500;
 }
 
@@ -105,10 +106,10 @@ button {
 
 .logo__text {
     color: #252626;
-    font-size: 21px;
+    font-size: 1.91vw;
     font-weight: 600;
     line-height: 150%;
-    padding-left: 5px;
+    padding-left: 0.45vw;
 }
 
 .sup__btn {
@@ -166,13 +167,15 @@ button {
 }
 
 .info__bg {
-    width: 120%;
+    width: 25vw;
 }
 
 .info__women {
     position: absolute;
-    top: -128px;
-    left: -231px;
+    /* top: -128px;
+    left: -231px; */
+    top: 0.730000000000004vw;
+    left: -12vw;
     width: 170%;
 }
 
@@ -185,27 +188,27 @@ button {
 }
 
 .info__bottle {
-    top: -100px;
-    left: -60px;
-    padding: 24px;
+    padding: 2.18vw;
+    top: -2.09vw;
+    left: -0.4500000000000002vw;
 }
 
 .info__diagrama {
-    padding: 28px;
-    top: -70px;
-    left: 460px;
+    padding: 2.55vw;
+    top: 0.6400000000000006vw;
+    left: 20.82vw;
 }
 
 .info__pencil {
-    padding: 21px 13px;
-    top: 290px;
-    left: -50px;
+    padding: 1.91vw 1.18vw;
+    top: 25.36vw;
+    left: -1.5500000000000007vw;
 }
 
 .info__speed {
-    padding: 21px 22px;
-    top: 329px;
-    left: 463px;
+    padding: 1.91vw 2vw;
+    top: 25.91vw;
+    left: 21.090000000000003vw;
 }
 
 .info__btn,.tried__btn {
@@ -236,7 +239,6 @@ button {
 .service__wrapper {
     margin-top: 19.55vw;
     text-align: center;
-
 }
 
 .service__title {
@@ -255,7 +257,7 @@ button {
 .service__card__block {
     margin-top: 5.45vw;
     display: flex;
-
+    justify-content: center;
 }
 
 .service__card {
@@ -407,14 +409,14 @@ button {
     background-size: repeat;
     background-position: center;
     background-size: cover;
-    height: 501px;
+    height: 45.55vw;
 
     margin-bottom: 10.91vw;
 }
 
 .opacity {
     background: rgba(16, 41, 45, 0.76);
-    height: 501px;
+    height: 45.55vw;
 }
 
 .video__wrapper {
@@ -423,7 +425,7 @@ button {
 }
 
 .video__title {
-    padding-top: 13.43vw;
+    padding-top: 10.43vw;
     color: #FFF;
     font-size: 3.45vw;
     font-weight: 700;
@@ -480,15 +482,8 @@ button {
 }
 
 .function__block {
-    width: 315px;
-    height: 240px;
-
     margin-top: 4.55vw;
     margin-right: 6.36vw;
-}
-
-.first__last, .second__last {
-    margin-right: 0;
 }
 
 .function__block__wrapper {
@@ -611,7 +606,7 @@ button {
 
 .footer__block {
     padding: 7.27vw 0 4.55vw;
-    margin-right: 7.73vw;
+    margin-right: 3.7300000000000004vw;
 }
 
 .footer__block:last-child {
@@ -730,4 +725,8 @@ button {
 .paper {
     width: 7.27vw;
     height: 7.27vw;
+}
+
+.info__text__block {
+    margin-right: 15.27vw;
 }
