@@ -476,12 +476,22 @@ button {
     width: 25.45vw;
     height: 2px;
 
-    margin: auto;
+    margin-left: -1.50vw;
 }
 
 .function__block {
+    /* width: 19.9vw; */
+    width: 25%;
     margin-top: 4.55vw;
     margin-right: 6.36vw;
+}
+
+.function__block:nth-child(3) {
+    margin-right: 0;
+}
+
+.function__block:nth-child(6) {
+    margin-right: 0;
 }
 
 .function__block__wrapper {
@@ -496,6 +506,8 @@ button {
     font-size: 21px;
     font-weight: 600;
     line-height: 150%;
+
+    white-space: nowrap;
 }
 
 .function__subtext {
@@ -663,10 +675,10 @@ button {
 }
 
 .footer__line {
-    width: 98vw;
+    width: 97vw;
     height: 1px;
     background-color: #4B4B4B;
-    margin-bottom: 40px;
+    margin-bottom: 2vw;
 }
 
 .footer__link {
