@@ -84,13 +84,22 @@ button {
     white-space: nowrap;
 }
 
-.active {
+.nav__link:hover {
     padding-bottom: 0.91vw;
     border-bottom: #35AFBF 2px solid;
 
     color: #35AFBF;
     font-weight: 500;
+    transition: 0.2s ease-in-out;
 }
+
+/* .active {
+    padding-bottom: 0.91vw;
+    border-bottom: #35AFBF 2px solid;
+
+    color: #35AFBF;
+    font-weight: 500;
+} */
 
 .nav__link:last-child {
     margin: 0;
@@ -123,6 +132,7 @@ button {
 
 .sup__btn:hover {
     background-color: #27808b;
+    transition: 0.2s ease-in-out;
 }
 
 /* Header end */
@@ -222,6 +232,7 @@ button {
 
 .info__btn:hover {
     background-color: #27808b;
+    transition: 0.2s ease-in-out;
 }
 
 .tried__btn:hover {
@@ -263,15 +274,12 @@ button {
     margin-right: 0;
 }
 
-.active__block {
+.service__card:hover {
     border-radius: 10px;
     border: 1px solid #A3E0E8;
     background-color: #D1F4F9;
     width: 350px;
-}
-
-.active__block .card__text {
-    padding: 0 2vw;
+    transition: 0.2s ease-in-out;
 }
 
 .card__title {
@@ -588,6 +596,7 @@ button {
 
 .tried__btn:hover {
     background-color: #27808b;
+    transition: 0.2s ease-in-out;
 }
 
 /* tried end */
@@ -660,8 +669,10 @@ button {
     border: 2px solid rgba(255, 255, 255, 0.30);
 }
 
-.footer__btn:hover {
+.footer__btn:hover,
+.footer__btn:active {
     border: 2px solid #2C353E;
+    transition: 0.2s ease-in-out;
 }
 
 .footer__line {
@@ -695,6 +706,16 @@ button {
     margin-right: 3.18vw;
     list-style-type: none;
 
+}
+
+.footer__link:hover,
+.footer__link:active {
+    color: #9b9b9b;
+    padding-bottom: 0.5vw;
+    border-bottom: #c8c8c8 2px solid;
+
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
 }
 
 .footer__list:last-child {
